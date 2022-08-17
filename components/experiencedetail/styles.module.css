@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+
+}
+
+.header span{
+    color: #7c9473;
+    font-size: 1rem;
+}
+
+.header h3{
+    color: currentColor;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+

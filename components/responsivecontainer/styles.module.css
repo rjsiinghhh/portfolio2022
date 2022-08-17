@@ -1,0 +1,21 @@
+.isMobile{
+    display:none;
+}
+
+.isDesktop{
+    display:none;
+}
+
+
+@media (max-width:900px) {
+    .isMobile {
+        display: block;
+    }
+}
+
+@media (min-width:901px) {
+    .isDesktop {
+        display: block;
+    }
+}
+

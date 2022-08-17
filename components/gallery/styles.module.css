@@ -1,0 +1,87 @@
+.gallery {
+    justify-content:space-between;
+    display:flex;
+}
+
+
+.gallery.reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex:1 1 50%;
+    width:50%;
+    min-width: 50%;
+}
+
+.right{
+    display:flex;
+    justify-content:flex-end;
+    text-align:right;
+}
+
+.reverse .right{
+    text-align: left;
+    justify-content: start;
+}
+
+.flexDirection{
+    flex-direction:column;
+}
+
+.descriptionContainer{
+    width:125%;
+    margin-left: -25%;
+    z-index:1;
+}
+
+.reverse .descriptionContainer{
+    margin-left: 0;
+    margin-right: -25%;
+}
+
+.description{
+    padding: 1rem;
+    text-align: right;
+    background-color: grey;
+    margin-bottom: 1rem;
+}
+
+.reverse .description{
+    text-align: left;
+}
+
+.language{
+    background: rgba(255, 255, 255, 0.5);
+    margin-left: 0.75rem;
+}
+
+.reverse .language{
+    margin-left: 0;
+    margin-right: 0.75rem;
+}
+
+.icon{
+    cursor:pointer;
+    transition: opacity 0.3s ease;
+    opacity:1;
+    text-align:right;
+    margin:1rem 0 0 1rem;
+
+    display: inline-block;
+    font-size: 2rem;
+}
+
+.reverse .icon{
+    margin: 1rem 1rem 0 0;
+}
+
+.icon:hover{
+    opacity: 0.7;
+}
+
+.reverse .image{
+    justify-content:flex-end;
+    align-items: flex-end;
+    display: flex;
+}

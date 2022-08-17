@@ -1,0 +1,36 @@
+.heading {
+    color: white;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.menuitem {
+    cursor:pointer;
+
+}
+
+
+.menu{
+flex:0 0 200px;
+margin-top: 65px;
+margin-right: 1rem;
+}
+
+.menu div{
+    margin-bottom: 1rem;
+}
+
+.experiencecontainer{
+    display:flex;
+    
+}
+
+@media (max-width:900px) {
+    .experiencecontainer {
+        padding: 2rem;
+    }
+}
+
+.menuitemactive {
+    color: #7c9473;
+}
