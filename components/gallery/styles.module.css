@@ -67,9 +67,9 @@
     opacity:1;
     text-align:right;
     margin:1rem 0 0 1rem;
-
     display: inline-block;
     font-size: 2rem;
+    color:white;
 }
 
 .reverse .icon{

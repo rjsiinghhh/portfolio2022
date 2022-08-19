@@ -4,8 +4,8 @@ import styles from "./styles.module.css"
 
 
 
-export default function Contactme() {
-    return <div className={styles.container}>
+export default function Contactme({ linkid }) {
+    return <div id={linkid} className={styles.container}>
         <small className="primary-color">Find Me?</small>
         <h1 className={styles.heading}>Get In Touch</h1>
         <p className={styles.content}>I'm currently looking for new opportunites. My inbox is always open. If you have any questions click on the button below to find me!</p>

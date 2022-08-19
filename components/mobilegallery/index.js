@@ -6,9 +6,9 @@ import Image from "next/image";
 
 
 
-export default function Mobilegallery({ title, projecturl, name, projectimg, projectname, description, languages, icons, number,}) {
+export default function Mobilegallery({ title, projecturl, name, projectimg, projectname, description, languages, icons, number, linkid}) {
     return <Section number={number} name={name}>
-        <div className={styles.gallery} style={{backgroundImage:`url(${projectimg})`}} > <div className={styles.background}>
+        <div id={linkid} className={styles.gallery} style={{backgroundImage:`url(${projectimg})`}} > <div className={styles.background}>
             <div className={styles.gallerybody}>
         <small className='primary-color'>featured project</small>
         <h4 className={styles.title}>{projectname}</h4>

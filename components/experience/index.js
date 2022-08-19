@@ -31,10 +31,10 @@ const experiences = [
 
 
 
-export default function Experience({heading}) {
+export default function Experience({heading, linkid}) {
     const [section, setSection] = useState(0);
 
-    return <div className='section'>
+    return <div id={linkid} className='section'>
        
         <div className={styles.experiencecontainer}>  
         <div className={styles.menu}>

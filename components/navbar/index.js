@@ -25,23 +25,23 @@ export default function Navbar() {
 
             <ul className={styles.navList}>
                 <li className={styles.navItem}>
-                    <a href="#" className={styles.navLink}> About </a>
+                    <a href="#about" className={styles.navLink}> About </a>
                 </li>
 
                 <li className={styles.navItem}>
-                    <a href="#" className={styles.navLink}> Experience </a>
+                    <a href="#experience" className={styles.navLink}> Experience </a>
                 </li>
 
                 <li className={styles.navItem}>
-                    <a href="#" className={styles.navLink}> Gallery </a>
+                    <a href="#gallery" className={styles.navLink}> Gallery </a>
                 </li>
 
                 <li className={styles.navItem}>
-                    <a href="#" className={styles.navLink}> Contact </a>
+                    <a href="#contact" className={styles.navLink}> Contact </a>
                 </li>
 
                 <li className={styles.navItem}>
-                    <a href="#" className={styles.navLink}> Resume </a>
+                    <a href="/ArjunSinghResume.pdf" download className={styles.navLink}> Resume </a>
                 </li>
             </ul>
         </nav>

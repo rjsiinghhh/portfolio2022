@@ -6,9 +6,9 @@ import Image from "next/image";
 
 
 
-export default function Gallery({ title, name, projectimg, projectname, description, languages, icons, number, reverse }) {
+export default function Gallery({ title, name, projectimg, projectname, description, languages, icons, number, reverse, linkid }) {
     return <Section number={number} name={name}>
-        <div className={`${styles.gallery} ${reverse? styles.reverse:''}`}>
+        <div id={linkid} className={`${styles.gallery} ${reverse? styles.reverse:''}`}>
             {/* {title}
         <div className={styles.card}>
         <h2 className={styles.projectname}>{projectname}</h2>
@@ -28,8 +28,8 @@ export default function Gallery({ title, name, projectimg, projectname, descript
                         return <span className={styles.language} key={item}>{item}</span>
                     })} </div>
                 </div>
-                <div className={styles.icons}><span className={styles.icon}>{icons?.map(({icon}) => {
-                    return <span className={styles.icon} key={icon}> <i className={icon}></i></span>
+                <div className={styles.icons}><span className={styles.icon}>{icons?.map(({icon, link}) => {
+                    return <a href={link} className={styles.icon} key={icon}> <i className={icon}></i></a>
                 })}</span>
                 </div>
             </div>

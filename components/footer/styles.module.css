@@ -12,9 +12,12 @@
 
 .designed{
     margin-bottom:1rem;
+    text-decoration: none;
+    color: white;
 }
 
 .icons a{
     margin:0 0.5rem;
     font-size: 1.5rem;
+    color: white;
 }
