@@ -18,7 +18,7 @@ const experiences = [
     {
     jobtitle: "Ranch Manager",
     time: "August 2012 - October 2016 / May 2018 - August 2020",
-    descriptions: ["At the family ranch, I Coordinated system installations, testing and code corrections and participated daily to team meetings and provided inputy on deadlines, designs, and enhancements. I also spent time monitioring equipment functionality to verify optimal performance and adjusting system controls on each ranch."],
+    descriptions: ["At the family ranch, I coordinated system installations, testing and code corrections and participated daily to team meetings and provided inputy on deadlines, designs, and enhancements. I also spent time monitioring equipment functionality to verify optimal performance and adjusting system controls on each ranch."],
     company: "Family Pistachio & Walnut Ranch"
     },
     {
