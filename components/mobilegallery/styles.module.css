@@ -26,6 +26,8 @@ margin-right: 1rem;
 .languages{
     margin-top: 2rem;
     margin-bottom: 2rem;
+    display: flex;
+    flex-wrap:wrap;
 }
 
 .button{
