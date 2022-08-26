@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import styles from "./styles.module.css"
 import Experiencedetail from "../experiencedetail";
+import Responsivecontainer from "../responsivecontainer";
 
 const experiences = [
     {
@@ -36,7 +37,8 @@ export default function Experience({heading, linkid}) {
 
     return <div id={linkid} className='section'>
        
-        <div className={styles.experiencecontainer}>  
+        <div className={styles.experiencecontainer}> 
+        <Responsivecontainer isMobile={true} ><h2 className={styles.heading}>{heading}</h2></Responsivecontainer>
         <div className={styles.menu}>
         {experiences.map(
             (experience,index)=> <div onClick={()=>{
@@ -45,7 +47,7 @@ export default function Experience({heading, linkid}) {
             )}
         </div>
         <div className={styles.experience}>  
-        <h2 className={styles.heading}>{heading}</h2>
+        <Responsivecontainer isMobile={false} ><h2 className={styles.heading}>{heading}</h2></Responsivecontainer>
         {experiences.map(  
             (experience, index)=> index === section &&<Experiencedetail {...experience} />
         )}  
