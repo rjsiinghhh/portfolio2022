@@ -29,6 +29,11 @@ margin-right: 1rem;
     .experiencecontainer {
         padding: 2rem;
         flex-wrap: wrap;
+
+    }
+    .menu {
+        margin-top:1rem;
+        
     }
 }
 
