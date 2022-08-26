@@ -12,6 +12,14 @@
     transition: right .8s cubic-bezier(1, 0, 0, 1);
 }
 
+@media (max-width:900px) {
+  .hamburgerMenu {
+    top: 1rem;
+    
+    }
+}
+
+
 .change {
     right: 0;
 }
