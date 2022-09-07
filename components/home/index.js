@@ -10,7 +10,7 @@ import Footer from "../footer";
 
 export default function Home() {
    return <div>
-      <Hero linkid="about" heading="Rj Singh" contents="I'm a software engineer who loves to build and design user experiences. Currently, I'm trying to get my first position as a software engineer." subheading=" & I love to code." imageurl="/profilepic.jpg"  ></Hero>
+      <Hero linkid="about" heading="Rj Singh" contents="I'm a software engineer who loves to build and design user experiences. Currently, I'm seeking my first position as a software engineer." subheading=" & I love to code." imageurl="/profilepic.jpg"  ></Hero>
       <Experience linkid="experience" heading="Leading up to now" />
      <div id="gallery"></div>
      <Responsivecontainer isMobile={false}>
