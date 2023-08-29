@@ -7,7 +7,7 @@ const experiences = [
     {
         jobtitle: "Software Engineer",
         time: "November 2020 - present",
-        descriptions: ["Marilyn Fricke - In this role I worked with an SEO agency to create, edit and maintain their customer websites. In this role, I worked closely with the team to implement code, troubleshoot technical issues, assist with integrations to enhance SEO competitiveness and ensure that the website is optimized for search. Since 2020, I&apos;ve worked at the agency as a part time engineer and have primarily used HTML, CSS, Javascript, React and Wordpress during this time. "],
+        descriptions: ["Marilyn Fricke - In this role I worked with an SEO agency to create, edit and maintain their customer websites. In this role, I worked closely with the team to implement code, troubleshoot technical issues, assist with integrations to enhance SEO competitiveness and ensure that the website is optimized for search. Since 2020, I've worked at the agency as a part time engineer and have primarily used HTML, CSS, Javascript, React and Wordpress during this time. "],
         company: "Marilyn Fricke"
     },
     {
