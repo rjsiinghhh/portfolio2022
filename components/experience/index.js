@@ -13,20 +13,20 @@ const experiences = [
     {
         jobtitle: "Software Engineering Fellow",
         time: "August 2020 - November 2020",
-        descriptions: ["Attended General Assembly's award-winning 500-hour Sofware Engineering Immersive program covering full-stack application development integrating object-oriented programming in solo and team building collaborative environments."],
+        descriptions: ["Attended General Assembly's award-winning 500-hour Sofware Engineering Immersive program covering full-stack application development integrating object-oriented programming in solo and team building collaborative environments. Focus on Javascript, HTML, CSS, Sass/Scss, PHP, jQuery, React, Node.js, Express, EJS, MongoDB, Mongoose, Postgres, SQL, Bootstrap, Materialize, AJAX, JSON, Figma, WordPress, & Github. Covered in 13 weeks, this experience truly taught me how to continue learning new skills on my own."],
         company: "General Assembly"
     },
     {
     jobtitle: "Ranch Manager",
     time: "August 2012 - October 2016 / May 2018 - August 2020",
-    descriptions: ["At the family ranch, I coordinated system installations, testing and code corrections and participated daily to team meetings and provided inputy on deadlines, designs, and enhancements. I also spent time monitioring equipment functionality to verify optimal performance and adjusting system controls on each ranch."],
-    company: "Family Pistachio & Walnut Ranch"
+    descriptions: ["From 2012 to 2020 I worked with my father in developing and managing our 500 acre orchard estate. This includes pistachios, walnut, and rice. During this time I was ************ give details and explain what I did as. ************* This experience taught me ******************* "],
+    company: "Pistachio & Walnut Ranch"
     },
     {
-    jobtitle: "Head Barista",
+    jobtitle: "Time in Coffee & Retail",
     time: "November 2021- Present",
-    descriptions: ["Work fulltime in a coffee providing my people with the best coffee out there."],
-    company: "Bluestone Lane"
+    descriptions: ["In 2016 I took some time from working at the Ranch and moved to SF. I spent a year at Zara, and during this time I worked as a Sale Associate. This experience "],
+    company: "Bluestone Lane, St. Frank Coffee, Zara"
     }
 ]
 
