@@ -21,13 +21,14 @@ const experiences = [
     time: "August 2012 - October 2016 / May 2018 - August 2020",
     descriptions: ["From 2012 to 2020, I worked with my father in developing and managing our 500 acre orchard estate. The estate included pistachios, walnuts, rice and tomatoes. I worked as the Ranch Manager, overseeing the management of trees, involved in planting and harvesting crops, supervised our team, operated orchard technology and equipment, treated tree & plants for diseases, pests and weeds and set up daily supplies needed for the crew to be successful daily."],
     company: "Pistachio & Walnut Ranch"
-    },
-    {
-    jobtitle: "St. Frank Coffee",
-    time: "November 2020 - Present",
-    descriptions: ["x"],
-    company: "Coffee"
     }
+    // ,
+    // {
+    // jobtitle: "St. Frank Coffee",
+    // time: "November 2020 - Present",
+    // descriptions: ["x"],
+    // company: "Coffee"
+    // }
 ]
 
 
