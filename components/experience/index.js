@@ -23,10 +23,22 @@ const experiences = [
     company: "Pistachio & Walnut Ranch"
     },
     {
-    jobtitle: "Time in Coffee & Retail",
-    time: "November 2020- Present",
-    descriptions: ["In 2016 I took some time from working at the Ranch and moved to SF. I spent a year at Zara, and during this time I worked as a Sale Associate. This experience "],
-    company: "Retail & Coffee"
+    jobtitle: "St. Frank Coffee",
+    time: "November 2020 - Present",
+    descriptions: ["x"],
+    company: "Retail & Coffee",
+    
+    jobtitle:"BlueStone Lane",
+    time: "x",
+    descriptions: ["x"],
+    
+    jobtitle: "Zara",
+    time: "y",
+    descriptions:["y"],
+
+    jobtitle:"Urban Outfitters",
+    time:"z",
+    descriptions:["z"]
     }
 ]
 
