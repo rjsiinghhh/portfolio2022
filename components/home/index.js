@@ -7,11 +7,14 @@ import Mobilegallery from "../mobilegallery";
 import Responsivecontainer from "../responsivecontainer";
 import Contactme from "../contactmesection";
 import Footer from "../footer";
+import Skills from "../skills";
 
 export default function Home() {
    return <div>
-      <Hero linkid="about" heading="Rj Singh" contents="I'm a software engineer who loves to build and design user experiences." subheading=" & I love to code." imageurl="/profilepic.jpg"  ></Hero>
+      <Hero linkid="about" heading="Rj Singh" contents="During covid, I was introduced to Software Engineering and ever since I've had a passion to build and design user experiences. " subheading=" & I love to build." imageurl="/profilepic.jpg"  ></Hero>
+      
       <Experience linkid="experience" heading="Leading up to now" />
+      <Skills />
      <div id="gallery"></div>
      <Responsivecontainer isMobile={false}>
       <Gallery name="Gallery" projectname="The Zamora Project" description="An online property manager used to track expenses, work notes, and give map details about the real estate." languages={["react", "d3", "express", "postgres", "bootstrap"]} projectimg="/zamora.png" icons={[{ icon: "fa-brands fa-github-alt", link:"https://github.com/rjsiinghhh/zamora" }, { icon: "fa-solid fa-share", link:"https://zamoraproject.netlify.app/" }]} reverse />
