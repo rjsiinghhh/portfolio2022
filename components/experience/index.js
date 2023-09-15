@@ -26,19 +26,7 @@ const experiences = [
     jobtitle: "St. Frank Coffee",
     time: "November 2020 - Present",
     descriptions: ["x"],
-    company: "Retail & Coffee",
-    
-    jobtitle:"BlueStone Lane",
-    time: "x",
-    descriptions: ["x"],
-    
-    jobtitle: "Zara",
-    time: "y",
-    descriptions:["y"],
-
-    jobtitle:"Urban Outfitters",
-    time:"z",
-    descriptions:["z"]
+    company: "Coffee"
     }
 ]
 
