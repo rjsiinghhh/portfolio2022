@@ -27,7 +27,7 @@ const experiences = [
     jobtitle: "Barista",
     time: "April 2023 - Present",
     descriptions: ["Since April 2023, I've worked at St. Frank's Coffee located in Russian Hill, San Francisco. "],
-    company: "St Frank"
+    company: "St Frank's"
     }
 ]
 
