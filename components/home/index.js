@@ -11,7 +11,7 @@ import Skills from "../skills";
 
 export default function Home() {
    return <div>
-      <Hero linkid="about" heading="Rj Singh" contents="During covid, I was introduced to Software Engineering and ever since I've had a passion to build and design user experiences. " subheading=" & I love to build." imageurl="/profilepic.jpg"  ></Hero>
+      <Hero linkid="about" heading="Rj Singh" contents="During covid, I was introduced to Software Engineering and ever since I've had a passion to build and design user experiences. " subheading=" & I love to build." ></Hero>
       
       <Experience linkid="experience" heading="Leading up to now" />
       <Skills />
@@ -39,6 +39,6 @@ export default function Home() {
       <Mobilegallery projectname="Coronavirus Update" description="An app where the user can search by country and get live updates on COVID-19 cases." languages={["javascript", "css", "html"]} projecturl="https://github.com/rjsiinghhh/coronavirus.io" projectimg="/coronavirusupdate.jpg" icons={[{ icon: "fa-brands fa-github-alt" }, { icon: "fa-solid fa-share" }]}  />
       </Responsivecontainer>
       <Contactme linkid="contact" />
-      <Footer />
+      <Footer imageurl="/profilepic.jpg"  />
    </div>
 }
