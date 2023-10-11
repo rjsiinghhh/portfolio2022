@@ -5,7 +5,7 @@ import styles from "./styles.module.css"
 
 
 
-export default function Hero({subheading, heading, contents, imageurl, linkid}) {
+export default function Hero({subheading, heading, contents, linkid}) {
     return <div id={linkid} className={styles.hero}>
         <div className={styles.herocontent}>
         <h2 className= {styles.heading}>{heading}</h2>

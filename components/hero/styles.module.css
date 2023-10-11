@@ -30,25 +30,3 @@
     
 
 }
-
-.imagecontainer > span{
-    border-radius: 0.2rem;
-    display: inline-block;
-    overflow: hidden;
-    border: 5px solid white !important;
-    border-bottom: 1.5rem solid white !important;
-
-   
- 
-}
-.imagecontainer{
-    display: inline-block;
-    cursor: pointer;
-}
-.imagecontainer img{
-    transition:filter 1s ease;
-}
-
-.imagecontainer:hover img {
-    filter:hue-rotate(90deg);
-}
