@@ -17,9 +17,7 @@ export default function Home() {
       <Skills />
      <div id="gallery"></div>
      <Responsivecontainer isMobile={false}>
-      <Gallery projectname="Orgami" description="Coming Soon. The first IOS app I've made, the focus to help people struggling with addictions find help near them." languages={["react native, firebase, crypto-js "]} 
-      // projectimg={"/zamora.png"}
-       icons={[{icon:"fa-brands fa-github-alt", link:"https://github.com/rjsiinghhh/iphoneapp" }]} />
+      <Gallery projectname="Orgami" description="Coming Soon. The first IOS app I've made, the focus to help people struggling with addictions find help near them." languages={["react native, firebase, crypto-js "]} projectimg={"/origami-white.jpeg"} icons={[{icon:"fa-brands fa-github-alt", link:"https://github.com/rjsiinghhh/iphoneapp" }]} />
 
       <Gallery name="Gallery" projectname="The Zamora Project" description="An online property manager used to track expenses, work notes, and give map details about the real estate." languages={["react", "d3", "express", "postgres", "bootstrap"]}
       //  projectimg="/zamora.png" 
